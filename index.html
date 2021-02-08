@@ -1,8 +1,20 @@
-# Database name: Negozio Videogiochi
-# Nome Tabella : giochi
-- id BIGINT NOTNULL
-- isbn VARCHAR(10) NOTNULL
-- titolo VARCHAR (80) NOTNULL
+# Database name: Albergo
+# Nome Tabella : stanze albergo
+- id_numero_camere INT NOTNULL
+- piani_albergo: TINYINT 
+- numero_prenotazioni: INT
+- nome_cliente: VARCHAR (20)
+- cognome_cliente: VARCHAR (20)
+- giorni_sosta: BIGINT
+- disponibilità_camere: TINYINT
+- numero_tavoli_ristorante: BIGINT
+- disponibilità_tavoli: TINYINT
+- prenotazioni_tavoli: BIGINT 
+
+
+
+
+
 - casa editrice VARCHAR (40) NULL 
 - descrizione TEXT NULL 
 - anno di uscita YEAR NOTNULL
@@ -16,3 +28,6 @@
 - formato VARCHAR (20) NULL
 - console VARCHAR (30) NULL 
 
+
+- /*isbn VARCHAR(10) NOTNULL*/
+titolo VARCHAR (80) NOTNULL
